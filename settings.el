@@ -15,3 +15,12 @@
 (setq tab-width 4)
 
 (setq dired-listing-switches "-allht")
+
+
+(setq mode-line-modes
+      (mapcar (lambda (elem)
+                (pcase elem
+                  (`(:propertize (,_ minor-mode-alist . ,_) . ,_)
+                   "")
+                  (t elem)))
+              mode-line-modes))

@@ -3,6 +3,7 @@
 (require 'helm)
 
 (define-key xah-fly-leader-key-map (kbd "i e") 'helm-find-files)
+(define-key xah-fly-leader-key-map (kbd "f") 'helm-mini)
 (define-key xah-fly-command-map (kbd "a") 'helm-M-x)
 
 (setq helm-split-window-in-side-p           t ; open helm buffer inside current window, not occupy whole other window
