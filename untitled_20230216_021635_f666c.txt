@@ -1,0 +1,20 @@
+Head:     master new this
+Merge:    origin/master new this
+Push:     origin/master new this
+
+Unstaged changes (1)
+modified   magit-config.el
+@@ -1,3 +1,8 @@
+ 
++(add-hook 'magit-status-mode-hook
++		  (lambda ()
++			(define-key xah-fly-command-map (kbd "<space>") 'xah-fly-leader-key-map)
+ 
+ (define-key xah-fly-leader-key-map (kbd "/") 'magit-status)
++
++ 
+
+Recent commits
+35f7e9a origin/master new this
+64b6127 Initial commit
+
