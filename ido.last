@@ -1,0 +1,63 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/max/linux_kernel/drivers/" . "acpi/")
+ ("/home/max/linux_kernel/" . "drivers/")
+ ("/home/max/" . ".emacs.d/")
+ ("/home/max/ESP8266_RTOS_SDK/examples/get-started/" . "hello_world/")
+ ("/home/max/ESP8266_RTOS_SDK/examples/" . "get-started/")
+ ("/home/max/ESP8266_RTOS_SDK/" . "examples/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/max/linux_kernel/drivers/acpi/"
+ "/home/max/.emacs.d/"
+ "/home/max/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "ac.c"
+ "tree-sitter-config"
+ "init.el"
+ "company-config.el"
+ "kll.c"
+ "tree-sitter-config.el"
+ "ggtags-config.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/max/linux_kernel/drivers/acpi/" (25582 60466 327383 778000) "property.c" "Kconfig" "acpi_fpdt.c" "ioapic.c" "acpi_cmos_rtc.c" "nvs.c" "wakeup.c" "bgrt.c" "acpi_watchdog.c" "platform_profile.c" "pmic/" "scan.c" "dock.c" "tables.c" "nfit/" "processor_idle.c" "acpi_pcc.c" "pci_link.c" "irq.c" "device_sysfs.c" "processor_pdc.c" "./" "ec.c" "apei/" "video_detect.c" "ec_sys.c" "hed.c" "proc.c" "sleep.c" "acpica/" "pptt.c" "glue.c" "fan_core.c" "thermal.c" "viot.c" "acpi_lpat.c" "pci_slot.c" "acpi_platform.c" "evged.c" "sbs.c" "pfr_telemetry.c" "processor_core.c" "numa/" "reboot.c" "internal.h" "device_pm.c" "acpi_dbg.c" "acpi_amba.c" "acpi_processor.c" "../" "acpi_lpit.c" "ac.c" "x86/" "spcr.c" "acpi_tad.c" "sbshc.c" "Makefile" "container.c" "pci_root.c" "event.c" "acpi_pad.c" "blacklist.c" "utils.c" "acpi_extlog.c" "debugfs.c" "fan.h" "resource.c" "power.c" "processor_thermal.c" "custom_method.c" "acpi_lpss.c" "sleep.h" "arm64/" "button.c" "dptf/" "pci_mcfg.c" "fan_attr.c" "pci_irq.c" "processor_throttling.c" "osl.c" "battery.c" "bus.c" "sysfs.c" "processor_driver.c" "pfr_update.c" "acpi_pnp.c" "acpi_ipmi.c" "acpi_memhotplug.c" "acpi_video.c" "acpi_apd.c" "acpi_ffh.c" "acpi_configfs.c" "processor_perflib.c" "prmt.c" "cppc_acpi.c" "sbshc.h" "osi.c" "acpi_adxl.c" "tiny-power-button.c")
+
+ ("/home/max/linux_kernel/drivers/" (25582 60470 170717 272000) "perf/" "Kconfig" "atm/" "devfreq/" "hid/" "nvdimm/" "pwm/" "sbus/" "fsi/" "ssb/" "dax/" "edac/" "counter/" "nfc/" "message/" "accessibility/" "soundwire/" "s390/" "i3c/" "./" "reset/" "bcma/" "uio/" "regulator/" "amba/" "xen/" "thunderbolt/" "power/" "ptp/" "isdn/" "base/" "hwmon/" "vhost/" "nvmem/" "slimbus/" "ras/" "vlynq/" "char/" "vdpa/" "pcmcia/" "extcon/" "bluetooth/" "scsi/" "nubus/" "firewire/" "eisa/" "mux/" "macintosh/" "pci/" "block/" "sh/" "../" "hv/" "cpuidle/" "parport/" "peci/" "net/" "ntb/" "pnp/" "zorro/" "video/" "i2c/" "tee/" "of/" "Makefile" "rapidio/" "hwtracing/" "ufs/" "accel/" "phy/" "infiniband/" "target/" "bus/" "gpu/" "idle/" "tc/" "remoteproc/" "comedi/" "cpufreq/" "clocksource/" "cxl/" "virtio/" "cdrom/" "ps3/" "parisc/" "mcb/" "vfio/" "iio/" "mmc/" "hsi/" "virt/" "tty/" "acpi/" "gpio/" "leds/" "spmi/" "gnss/" "ata/" "dma-buf/" "firmware/" "android/" "w1/" "thermal/" "irqchip/" "pinctrl/" "opp/" "media/" "powercap/" "memory/" "dma/" "interconnect/" "dca/" "nvme/" "pps/" "input/" "mtd/" "soc/" "mailbox/" "ipack/" "auxdisplay/" "md/" "misc/" "fpga/" "siox/" "greybus/" "connector/" "spi/" "rpmsg/" "dio/" "mfd/" "staging/" "crypto/" "watchdog/" "iommu/" "platform/" "hwspinlock/" "usb/" "clk/" "rtc/" "memstick/" "hte/" "most/")
+
+ ("/home/max/linux_kernel/" (25582 60813 70731 521000) "Kconfig" "LICENSES/" "MAINTAINERS" ".gitattributes" "CREDITS" ".get_maintainer.ignore" "rust/" "./" "samples/" "GPATH" ".git/" "arch/" "GRTAGS" ".clang-format" "README" "init/" "mm/" "block/" "../" "net/" "scripts/" "Makefile" "Kbuild" "Documentation/" ".cocciconfig" ".mailmap" ".gitignore" "ipc/" "GTAGS" "fs/" "virt/" "tools/" "usr/" "COPYING" "io_uring/" "sound/" "kernel/" "certs/" "lib/" ".rustfmt.toml" "include/" "crypto/" "drivers/" "security/")
+
+ ("/home/max/.emacs.d/" (25583 44150 620363 700000) "eln-cache/" ".lsp-session-v1" "xah-fly-keys-config.el" "recentf" "README.md" "./" "projectile-config.el" ".git/" "helm-swoop.el" ".projectile" "helm-imenu.el" "tree-sitter-config.el" "smex-items" "init.el" "helm-config.el" "ido-imenu.el" "../" "magit-config.el" "settings.el" "envs.el" "company-config.el" "rtags-config.el" "esp8266-config.el" "ido.last" "ido-config.el" "projectile-bookmarks.eld" "scripts.el" "elpa/" "games/" "projectile.cache" "untitled_20230216_024537_d5c53.txt" "helm-gtags-config.el" "ggtags-config.el" "eshell-config.el" "auto-save-list/" "transient/" "eshell/")
+
+ ("/home/max/" (25583 44151 567030 407000) ".fleet/" ".mysql_history" "UNTER_THEM.png" "Pictures/" "st/" "clones/" "databaseX/" "AndroidClient/" "rtags/" ".profile" "DB_TEST.properties" "SERVER_REAL/" "letstalk.safe2/" "]" "ooo.java" ".authinfo" "db_info/" "fridolin.c" "last.txt" "Videos/" ".space_emacs_latest_1/" ".mysql/" "emacs.png" ".spacemacs_safe" ".zcompdump-archp-5.9" "Desktop/" "test1.rep/" "SERVER3/" "hsqldb-2.7.1/" "test_database.script" ".vscode-oss/" "DB_TEST/" "latex/" ".zshrc" "db_info.log" ".config/" ".android/" "hsqlprefs.dat" "AndroidServerTest/" "petri2.xml" ".python_history" ".vim/" "IdeaProjects/" "clojure2/" "a.out" "MCT_KLAUSUR" "final_server1/" "hello.exs" ".#buf.lisp" "Android1/" "test.properties" ".zcompdump-archp-5.9.zwc" "test1.gpr" ".wget-hsts" "TEST1/" "KNUTH/" "print.py" "cscope.out" "sensor.cpp~" "RubymineProjects/" "spacemacs_safe/" "VSAPP/" ".pki/" ".platformio/" "clojure1/" "buf.lisp" "kde-plasma-backup/" "new.c" ".bashrc" "jjj/" ".ssh/" ".gdb_history" ".clang-format" "KLAUSUR/" "RUBY/" ".vscode/" ".clojure/" "cj/" ".zsh_history" ".bash_logout" ".espressif/" ".viminfo" ".templateengine/" "sv" "singleton1/" "Math.class" "test.script" "OLD/" "present2/" "emacs/" "m_emacs_1/" ".gdbinit" "test.lck" "justtolook/" ".zshrc.pre-oh-my-zsh" "last.tex" "$HOME/" ".oh-my-zsh/" "dependency-reduced-pom.xml" "db_info.script" "database-data.script" "app_vlast1/" "fuck.cpp" "dap-test/" "java-space-test/" ".emacs.d/" "snake3/" ".arduino15/" ".gitconfig" ".gdbinit.old" "new.tex" "RUST/" "db_info.tmp/" "test_database.tmp/" ".sly-mrepl-history" "test_database.log" "testing/" "database1/" ".doom.d/" "emacs3_safe/" "threads/" "hsqlprefs.dat.backup" "buf.fasl" ".spacemacs" "AndroidStudioProjects/" "Public/" ".cache/" "final1/" "Arduino/" "kll.c" "qtest1/" "MCT/" "maventest2/" "endProdukt/" ".node_repl_history" "test1.java" "SERVER2/" ".npm/" "tensa-test/" "linux_kernel/" "crypt/" "Documents/" "file.pl" "RiderProjects/" "app.apk" "DataGripProjects/" "new" "emacs_xah_safe/" "node/" "MAIN_UNTER.png" "hackme1" "test.log" "dotfiles/" ".java/" ".ghidra/" "db_ws_22_2023_01_26_23_14_44.txt" ".idea/" "startup.sh" "AVR/" "test.cpp" ".slime-history.eld" ".nv/" ".Xauthority" "finalVersion3.tex" "WebstormProjects/" "ttt.java" "PycharmProjects/" "papa2/" "maventest1/" "letstalk.safe/" ".cargo/" "kde-backup/" "build-qtest1-Desktop-Debug/" "]~1" "letstalk2/" ".Xmodmap" "sensor.ino" "test.pl" "BST/" "JAVA/" ".gef-2b72f5d0d9f0f218a91cd1ca5148e45923b950d5.py" ".tmux.conf" "JV/" "new.pdf" "Downloads/" "Chat-Application/" "#buf.lisp#" "test/" "A/" ".Xresources" "index.html" "patterns/" "letstalk.safe3/" "letstalk/" "sensor.cpp" "papa.c" ".m2/" "emacs-latest-1/" "Android/" "yay/" "SERVER/" "#*message*-20230117-152748#" "hello.cpp" "max@10.100.8.148/" "Music/" "vstest1/" "ESP8266/" ".local/" "finalApp/" ".shell.pre-oh-my-zsh" "AndroidClient2/" "init.vim.safe" "hackme1.c" ".designer/" "finalServer/" "app_latest_version1/" "buf.lisp~" "password_server/" ".slime_paste" "DB_TEST.script" ".gtkrc-2.0" ".vimrc" "test_database.properties" "testxxx" "test.java" "mdatabase/" ".lein/" "pawn.pl" "liste" "AndroidServer/" "letstalk.safe4/" "bieman.txt" "ABG/" "fuck" "ESP8266_RTOS_SDK/" "neovim/" "papa" "NASM/" ".slime/" "database-data.tmp/" "vps" "fridolin" "Templates/" "COMMON_LISP/" ".rustup/" ".nuget/" "hello.py" "MCT_KLAUSUR~" "AndroidClientTest/" ".gradle/" ".zoom/" "database-data.properties" "DS/" "doom-emacs/" ".spacemacs.env" "CLionProjects/" ".bash_history" "emacs_p2/" ".bash_profile" "AB/" "fff.c" "test.tmp/" "dotTraceSnapshots/" ".emulator_console_auth_token" "maven_test/" ".gnupg/" "db_info.properties" "flasky/" ".Xdefaults" "mygraph1.html" "gcc-emacs/" "database-data.log" "present/" "Number.class" "btree1/" "test.java~" "../" "./")
+
+ ("/home/max/ESP8266_RTOS_SDK/components/freertos/include/freertos/" (25582 22810 703375 398000) "timers.h" "./" "message_buffer.h" "semphr.h" "../" "stream_buffer.h" "queue.h" "event_groups.h" "private/" "task.h" "FreeRTOS.h")
+
+ ("/home/max/ESP8266_RTOS_SDK/examples/get-started/hello_world/" (25582 59274 914000 708000) "README.md" "./" ".projectile" "../" "main/" "sdkconfig" "Makefile" "build/" "sdkconfig.old" "CMakeLists.txt")
+
+ ("/home/max/ESP8266_RTOS_SDK/components/" (25582 22810 776708 734000) "console/" "wear_levelling/" "protocomm/" "libsodium/" "esp_http_client/" "http_parser/" "./" "freertos/" "tcp_transport/" "bootloader/" "app_update/" "bootloader_support/" "spi_flash/" "spi_ram/" "freemodbus/" "heap/" "esp_common/" "esp_gdbstub/" "log/" "esp-tls/" "wpa_supplicant/" "jsmn/" "esp_http_server/" "nvs_flash/" "wifi_provisioning/" "../" "mdns/" "coap/" "vfs/" "pthread/" "json/" "lwip/" "newlib/" "esp8266/" "esptool_py/" "esp_event/" "esp-wolfssl/" "fatfs/" "partition_table/" "protobuf-c/" "mqtt/" "mbedtls/" "esp_ringbuf/" "tcpip_adapter/" "openssl/" "spiffs/" "esp_https_ota/")
+
+ ("/home/max/ESP8266_RTOS_SDK/components/esp_event/" (25582 22810 640042 63000) "Kconfig" "event_send.c" "./" "private_include/" "event_loop_legacy.c" "esp_event.c" "default_event_loop.c" "component.mk" "../" "esp_event_private.c" "CMakeLists.txt" "test/" "event_send_compat.inc" "include/")
+
+ ("/home/max/linux_kernel/kernel/" (25582 60470 854050 634000) "cred.c" "stacktrace.c" "hung_task.c" "cpu.c" "audit_fsnotify.c" "acct.c" "fork.c" "bpf/" "trace/" "workqueue.c" "static_call_inline.c" "bounds.c" "umh.c" "stackleak.c" "dma.c" "delayacct.c" "context_tracking.c" "tsacct.c" "scs.c" "./" "ksysfs.c" "kexec_file.c" "workqueue_internal.h" "kcov.c" "power/" "locking/" "pid_namespace.c" "kcmp.c" "gen_kheaders.sh" "compat.c" "Kconfig.locks" "usermode_driver.c" "debug/" "user_namespace.c" "kexec_elf.c" "pid.c" "softirq.c" "seccomp.c" "irq/" "uid16.h" "gcov/" "ucount.c" "cfi.c" "padata.c" "smp.c" "audit_tree.c" "regset.c" "Kconfig.preempt" "panic.c" "rcu/" "tracepoint.c" "params.c" "uid16.c" "reboot.c" "user.c" "crash_core.c" "signal.c" "module_signature.c" "../" "ptrace.c" "time/" "backtracetest.c" "Kconfig.freezer" "async.c" "printk/" "nsproxy.c" "groups.c" "kallsyms_internal.h" "livepatch/" "exec_domain.c" "configs.c" "kprobes.c" "utsname.c" "sysctl-test.c" "futex/" "Makefile" "range.c" "exit.c" "static_call.c" "sys.c" "audit.h" "kexec_internal.h" "resource_kunit.c" "utsname_sysctl.c" "events/" "task_work.c" "sched/" "iomem.c" ".gitignore" "kheaders.c" "taskstats.c" "cpu_pm.c" "smpboot.h" "rseq.c" "kallsyms_selftest.h" "irq_work.c" "resource.c" "kcsan/" "audit.c" "latencytop.c" "freezer.c" "capability.c" "notifier.c" "profile.c" "scftorture.c" "smpboot.c" "Kconfig.hz" "watchdog_hld.c" "relay.c" "kallsyms.c" "auditfilter.c" "watch_queue.c" "dma/" "kmod.c" "auditsc.c" "entry/" "kthread.c" "stop_machine.c" "module/" "kexec.c" "torture.c" "sys_ni.c" "up.c" "audit_watch.c" "jump_label.c" "fail_function.c" "sysctl.c" "kallsyms_selftest.c" "kexec_core.c" "crash_dump.c" "configs/" "extable.c" "cgroup/" "watchdog.c" "user-return-notifier.c")
+
+ ("/home/max/ESP8266_RTOS_SDK/examples/get-started/" (25582 22810 810042 67000) "./" "../" "hello_world/")
+
+ ("/home/max/ESP8266_RTOS_SDK/examples/" (25582 22810 830042 68000) "README.md" "peripherals/" "./" "provisioning/" "../" "protocols/" "get-started/" "system/" "storage/" "wifi/" "common_components/")
+
+ ("/home/max/ESP8266_RTOS_SDK/" (25582 59247 590666 219000) "Kconfig" "LICENSE" ".gitattributes" "README.md" "./" "GPATH" "docs/" ".git/" "components/" "GRTAGS" "export.sh" "install" ".github/" "install.sh" ".gitmodules" "../" "make/" "examples/" ".gitignore" "CMakeLists.txt" "GTAGS" "tools/" "requirements.txt" "SUPPORT_POLICY_EN.md" ".readthedocs.yml" "sdkconfig.rename" "add_path.sh" "SUPPORT_POLICY_CN.md" ".gitlab-ci.yml")
+
+ ("/home/max/ESP8266_RTOS_SDK/examples/get-started/hello_world/main/" (25582 57261 863916 675000) "./" "component.mk" "../" "CMakeLists.txt" "hello_world_main.c")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

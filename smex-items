@@ -1,0 +1,38 @@
+
+;; ----- smex-history -----
+(
+ tree-sitter-hl-mode
+ customize-themes
+ list-faces-display
+ load-init
+ imenu
+ ggtags-mode
+ package-delete
+)
+
+;; ----- smex-data -----
+(
+ (company-gtags . 6)
+ (customize-themes . 12)
+ (package-install . 10)
+ (package-install-selected-packages . 1)
+ (load-init . 16)
+ (package-delete . 2)
+ (ggtags-update-tags . 1)
+ (ggtags-grep . 1)
+ (ggtags-find-definition . 1)
+ (customize-face . 2)
+ (tree-sitter-mode . 1)
+ (tree-sitter-hl-mode . 4)
+ (ggtags-mode . 4)
+ (company-c-headers . 3)
+ (company-mode . 3)
+ (lsp . 2)
+ (which-key-mode . 1)
+ (esp8266/make-app-flash-monitor . 5)
+ (shell-command . 1)
+ (lsp-mode . 1)
+ (idomenu . 1)
+ (imenu . 1)
+ (list-faces-display . 1)
+)

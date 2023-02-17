@@ -1,1 +1,128 @@
+systemctl --user enable rdm.socket
+systemctl --user start rdm.socket
+rdm
+rdm &
+rc
+echo $PATH
+echo $PATH
+echo $PATH
+echo $PATH
+echo $IDF_PATH
+ls
+xtensa-lx106-elf-gcc
+xtensa-lx106-elf-gcc
+xtensa-lx106-elf-gcc
+ls /usr/bin/x*
+ls /usr/bin/xt*
+yay -S xtensa-lx106-elf-gcc-bin
+make app-flash monitor
+ls
+cd ..
+make flash monitor
+ls
+make flash
+ls
+cd main
+ls
+make flash
+make all
+cd ..
+make all
+cd ..
+ls
+cd hello_world/
+ls
+make app-flash
+ls
+ls
+ls
+make flas
+make
+(getenv "SHELL")
+(getenv "IDF_PATH")
+make flash
+(getenv "IDF_PATH")
+(getenv)
+(getenv t)
+(getenv "PATH")
+make flash
+clear
+clear
+clear
+clear 1
+ls
+clear 1
+clear 1
+sudo pacman -S nasm
+bash run for1
+ls
+cd
+cd NASM
+ls
+cd papa/
+ls
+bash run for1
+nasm -f elf for1.asm -o for1.o
+ls
+ls
+rm for1.o
+rm hello.o 
+bash run for1
+ls
+./for1
+ls
+rm for1.o
+bash run for1
+bash run for1
+gef
+bash -c "$(curl -fsSL https://gef.blah.cat/sh)"
+bash run for1
+bash run for1
+bash run for1
+bash run for1
+rc -s jobs
+systemctl --user status rdm
+rtags
+ls
+cd ..
+ls
+gtags 
+sudo pacman -S global
+gtags
+ls
+ls
+cd ..
+ls
+cd ..
+ls
+cd main
+ls
+cd wpa2_enterprise/ 
+ls
+cd main/
+ls
+ls
+gtags
+ls
+cd ..
+ls
+rm G*
+ls
+gtags -r
+gtags -R
+sudo pacman -S cscope
+ls
+cd ..
+ls
+cd ..
+ls
+cd hello_world/
+ls
+cscope -R
+gtags 
+ls
+gtags
+cd
+git clone https://github.com/torvalds/linux.git linux_kernel
+gtags
 ls

@@ -1,5 +1,5 @@
 
-(load-theme 'modus-vivendi)
+;; (load-theme 'modus-operandi)
 
 
 (menu-bar-mode -1)
