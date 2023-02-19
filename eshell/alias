@@ -1,0 +1,3 @@
+alias l ls -a $*
+alias c clear 1 $*
+alias ll ls -allt $*

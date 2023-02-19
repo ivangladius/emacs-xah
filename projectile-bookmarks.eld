@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/ESP8266_RTOS_SDK/examples/get-started/hello_world/" "~/linux_kernel/" "~/ESP8266_RTOS_SDK/" "~/" "~/DS/C/")
+("~/.emacs.d/" "~/" "~/DS/C/" "~/.stumpwm.d/" "/:/home/max/linux_kernel/" "~/ESP8266_RTOS_SDK/examples/get-started/hello_world/" "~/linux_kernel/" "~/ESP8266_RTOS_SDK/")

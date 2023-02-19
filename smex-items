@@ -1,12 +1,12 @@
 
 ;; ----- smex-history -----
 (
- tree-sitter-hl-mode
- customize-themes
- list-faces-display
+ lispy-mode
+ slime
  load-init
- imenu
- ggtags-mode
+ slime-connect
+ package-install
+ slime-mode
  package-delete
 )
 
@@ -14,10 +14,10 @@
 (
  (company-gtags . 6)
  (customize-themes . 12)
- (package-install . 10)
+ (package-install . 19)
  (package-install-selected-packages . 1)
- (load-init . 16)
- (package-delete . 2)
+ (load-init . 21)
+ (package-delete . 6)
  (ggtags-update-tags . 1)
  (ggtags-grep . 1)
  (ggtags-find-definition . 1)
@@ -28,11 +28,29 @@
  (company-c-headers . 3)
  (company-mode . 3)
  (lsp . 2)
- (which-key-mode . 1)
+ (which-key-mode . 4)
  (esp8266/make-app-flash-monitor . 5)
  (shell-command . 1)
  (lsp-mode . 1)
  (idomenu . 1)
  (imenu . 1)
  (list-faces-display . 1)
+ (sly . 5)
+ (package-refresh-contents . 1)
+ (auto-sudoedit-mode . 2)
+ (stumpwm-mode . 5)
+ (stumpwm-eval-region . 10)
+ (projectile-mode . 1)
+ (xah-fly-keys . 2)
+ (persp-mode . 1)
+ (persp-add-new . 1)
+ (persp-window-switch . 1)
+ (persp-add-buffer . 1)
+ (grep-find . 1)
+ (tramp-unload-tramp . 1)
+ (sly-edit-value . 1)
+ (slime . 3)
+ (slime-mode . 1)
+ (lispy-mode . 4)
+ (slime-connect . 1)
 )

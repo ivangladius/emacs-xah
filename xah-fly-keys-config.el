@@ -5,12 +5,20 @@
 (global-set-key (kbd "<escape>") 'xah-fly-command-mode-activate)
 
 (define-key xah-fly-command-map (kbd "4") 'my-split-below)
+(define-key xah-fly-command-map (kbd ",") 'ace-window)
+
+(define-key xah-fly-command-map (kbd "a") 'counsel-M-x)
+
 (define-key xah-fly-leader-key-map (kbd "4") 'my-split-right)
 
-(define-key xah-fly-leader-key-map (kbd "u") '(lambda ()
-						(interactive)
-						(xah-save-close-current-buffer)
-						(delete-window)))
+;; (define-key xah-fly-leader-key-map (kbd "u") '(lambda ()
+						;; (interactive)
+						;; (xah-save-close-current-buffer)
+						;; (delete-window)))
+
+
+
+(global-set-key (kbd "M-q") 'delete-frame)
 
 ;; specify a layout
 (xah-fly-keys-set-layout "qwerty")
